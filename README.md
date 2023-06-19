@@ -1,13 +1,11 @@
-## react noble cloth store
+## React Noble Clothing Store
 
-Creating object of products.
-Researching for product images.
+Created and customized the products for the project,
 
-By choosing clothing store as a e-commerce project website I didn't considered that I have to set a lot types of products
-and set lot of object of products for men and women as well can be a little frustrating.
+-Made the products API object airtable.com cms 
 
-Making the product object on cms airtable.com
+-Authentication with Auth0
 
-Authentication with Auth0
+-Customizing forms and emails with FormSpree
 
-Customizing forms and emails with FormSpree
+-Custom serverless API on netlify
