@@ -1,13 +1,16 @@
-## React Noble Clothing Store
+# React Noble Clothing Store
 
-Created and customized the products for the project,
+Created and customized the project and products from scratch
+to explore and experience React, Node, authorization, payment gateways and more..
 
--Made the products API object airtable.com cms 
+## production website -
+https://noble-clothing.netlify.app/
 
--Authentication with Auth0
 
--Customizing forms and emails with FormSpree
-
--Paypal payment gateway
-
--Custom serverless API on netlify
+## Tech
+- Styled Components - Components styling 
+- Airtable CMS - products object database
+- Auth0 - Authentication
+- FormSpree - Customizing forms and emails
+- Paypal -  payment gateway
+- NodeJS - Custom serverless API hosted on Netlify 
