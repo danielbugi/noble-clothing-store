@@ -29,7 +29,6 @@ const CartContext = createContext();
 // eslint-disable-next-line react/prop-types
 export const CartProvider = ({ children }) => {
   const [state, dispatch] = useReducer(reducer, initialState);
-  console.log(state.cart);
 
   const addToCart = (id, color, size, amount, product) => {
     dispatch({

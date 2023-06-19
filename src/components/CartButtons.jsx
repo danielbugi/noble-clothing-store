@@ -7,7 +7,6 @@ import { useUserContext } from '../context/user_context';
 const CartButtons = () => {
   const { total_items, clearCart } = useCartContext();
   const { loginWithPopup, logout, myUser } = useUserContext();
-  console.log(myUser);
   return (
     <Wrapper className="cart-btn-wrapper">
       <Link to="/cart" className="cart-btn">

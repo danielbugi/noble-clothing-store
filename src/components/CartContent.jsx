@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import CartTotals from './CartTotals';
 
 const CartContent = () => {
-  const { cart } = useCartContext();
+  const { cart, clearCart } = useCartContext();
   return (
     <Wrapper className="section-center">
       <CartColumns />
@@ -18,7 +18,11 @@ const CartContent = () => {
         <Link to="/shop" className="link-btn continue-btn">
           continue shopping
         </Link>
-        <button type="button" className="link-btn clear-btn">
+        <button
+          type="button"
+          className="link-btn clear-btn"
+          onClick={clearCart}
+        >
           clear shopping cart
         </button>
       </div>

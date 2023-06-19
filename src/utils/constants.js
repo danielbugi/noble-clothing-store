@@ -68,4 +68,5 @@ export const footerLinks = [
   },
 ];
 
-export const products_url = 'http://localhost:1234/products';
+export const products_url =
+  'https://noble-clothing-api.netlify.app/.netlify/functions/api/products';

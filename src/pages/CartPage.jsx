@@ -6,8 +6,6 @@ import { CartContent } from '../components';
 const CartPage = () => {
   const { cart } = useCartContext();
 
-  console.log(cart);
-
   if (cart.length < 1) {
     return (
       <Wrapper className="page-100">

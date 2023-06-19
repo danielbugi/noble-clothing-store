@@ -13,6 +13,7 @@ import Sort from './Sort';
 import ProductList from './ProductList';
 import NewsLetter from './NewsLetter';
 import CartContent from './CartContent';
+import PaypalCheckout from './PaypalCheckout';
 
 export {
   Navbar,
@@ -30,4 +31,5 @@ export {
   ProductList,
   NewsLetter,
   CartContent,
+  PaypalCheckout,
 };
