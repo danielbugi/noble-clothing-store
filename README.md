@@ -8,4 +8,6 @@ Created and customized the products for the project,
 
 -Customizing forms and emails with FormSpree
 
+-Paypal payment gateway
+
 -Custom serverless API on netlify
