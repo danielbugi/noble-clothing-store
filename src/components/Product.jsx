@@ -75,6 +75,9 @@ const Wrapper = styled.article`
     .container {
       cursor: pointer;
     }
+    .container:hover::after {
+      display: none;
+    }
   }
 
   @media screen and (max-width: 400px) {

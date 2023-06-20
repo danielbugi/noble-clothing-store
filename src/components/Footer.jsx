@@ -214,5 +214,23 @@ const Wrapper = styled.footer`
       }
     }
   }
+  @media screen and (max-width: 772px) {
+    .section-center {
+      grid-template-columns: 1fr 1fr;
+      overflow: hidden;
+      grid-template-areas:
+        'a a'
+        'b c';
+    }
+    .contact {
+      grid-area: a;
+    }
+    .store {
+      grid-area: b;
+    }
+    .about {
+      grid-area: c;
+    }
+  }
 `;
 export default Footer;
